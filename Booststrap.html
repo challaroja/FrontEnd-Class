@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <h3>1. Booststrap Grid System</h3>
+    <p>The grid system is based on a 12-column layout, allowing for responsive design.</p>
+    <div class="row">
+          <div class="col-4">Column 1</div>
+          <div class="col-4">Column 2</div>
+          <div class="col-md-4">Column 3</div>
+     </div>
+     <h3>2.Utility Classes</h3>
+     <p>Utility classes help with spacing, alignment, and display properties.</p>
+     <div class=" p-1 text-center text-black border">Padding </div><br>
+     <div class=" mb-2 bg-primary text-white">Margine </div>
+     <div class="d-flex justify-content-between col-6">
+       <div class="col-2 col-xs-3">Content 1</div>
+       <div class="col-4  col-lg-6">Content 2</div>
+     </div>
+     <h3>3. Boostsrap Buttons </h3>
+     <p>Bootstrap offers various button styles that can be easily customized.</p>
+     <button type="button" class="btn btn-primary">Primary Button</button>
+     <button type="button" class="btn btn-secondary">Secondary Button</button>
+     <button type="button" class="btn btn-success">Success Button</button>
+     <button type="button" class="btn btn-danger">Danger Button</button>
+     <button type="button" class="btn btn-warning">Warning Button</button>  
+     <button type="button" class="btn btn-info">Info Button</button>
+     <button type="button" class="btn btn-light">Light Button</button>
+     <button type="button" class="btn btn-dark">Dark Button</button>
+     <h3>4. Boostsrap Alerts</h3>
+     <p>Alerts are a great way to provide feedback to users.</p>
+     <div class="alert alert-success" role="alert">
+      This is a success alert
+    </div>
+    
+    <div class="alert alert-danger" role="alert">
+      This is a danger alert—be careful!
+    </div>
+    
+    <div class="alert alert-warning" role="alert">
+      This is a warning alert
+    </div>
+    
+    <div class="alert alert-info" role="alert">
+      This is an info alert
+    </div>
+    
+    <div class="alert alert-primary" role="alert">
+      This is a primary alert
+    </div>
+    <h3>5.Booststrap Model Popups</h3>
+    <p>Modals can be used to display information without navigating away from the current page.</p>
+    <!-- Button to trigger modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+      Modal popuse
+    </button>
+    
+    <!-- Modal -->
+    <div class="modal" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+    
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Modal Popups</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+    
+          <!-- Modal Body -->
+           
+          <div class="modal-body">
+            This is the modal body content.
+          </div>
+    
+          <!-- Modal Footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-success">Save Changes</button>
+          </div>
+    
+        </div>
+      </div>
+    </div>
+    <h3>4.Booststrap Components</h3>
+    <p>You can combine these components for a more interactive experience.</p> 
+    <div class="container mt-5">
+       <h4>Bootstrap Alerts and Buttons</h4>
+    
+      <!-- Alert Example -->
+      <div class="alert alert-success " role="alert" >
+        This is a succes alert  <a href="#" class="alert-link">Help:</a>
+      </div>
+    
+      <!-- Modal Trigger Button -->
+      <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal"> Components
+      </button>
+    </div>
+     
+    
+      
+      
+</body>
+</html>
