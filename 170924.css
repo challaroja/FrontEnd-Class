@@ -1,0 +1,72 @@
+body{
+    background: url('sunset.jpg') no-repeat center center/cover;
+    height: 500px;
+    width: 700px;
+}
+/*login form */
+.lf{
+    display: flex;
+    flex-direction: column;
+    height:500px;
+    width:400px;
+    border: 2px solid black;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgba(0,0,0,0.5);
+    box-shadow: inset -3px -6px rgba(0,0,0,0.5);
+    border-radius: 26px;
+
+
+
+}
+.lf h1{
+    color: white;
+    font-size: 2rem;
+    border-bottom: 3px solid rgba(255, 255,255, 0.5);
+    margin: 50px;
+
+}
+/*boxes*/
+.box{
+    padding: 10px 10px ;
+    margin: 18px;
+    width: 64%;
+    border: none;
+    outline: none;
+    border-radius: 21px;
+    background-color: rgba(0,0,0,0.5);
+    box-shadow: inset -3px -3px rgba(0,0,0,0.5);
+    color: white;
+    font-size: 1rem;
+
+}
+#submit{
+    padding: 10px 20px;
+    border-radius: 28px;
+    width: 25%;
+    color: white;
+    margin-top: 26px;
+    font-size: 1rem;
+    box-shadow:inset -4px -4px rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.5);
+}
+#submit:hover{
+    cursor: pointer;
+    background-color:rgba(255, 255,255, 0.1) ;
+    color: white;
+}
+::placeholder{
+    color: white;
+    opacity: 0.7;
+}
+.ll{
+    color: lightblue;
+    margin-bottom: 30px;
+    text-decoration: none;
+
+}
+.signup{
+    color: white;
+    margin-top: 20px;
+}
