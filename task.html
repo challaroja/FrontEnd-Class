@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type="text"]{
+            border: 1px solid black;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            outline: none;
+        }
+        input[type="radio"]{
+            background-color: rgb(53, 25, 182);
+        
+            
+        }
+        .table,td{
+            border: 1px solid rgb(12, 12, 15);
+            border-collapse: collapse;
+            padding: 30px;
+            height: 30px;
+        }
+        .dis{
+            display: flex;
+            justify-content:space-between;
+            height: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="text-align: center;">Besant Technologies</h2>
+    <h3 style="text-align: center;">Anna Nagar</h3>
+    <div class="dis">
+    <span>Enquiry Form</span>
+    <span style="text-align: end;">Date: <input type="text" ></span>
+    </div>
+    <form action="">
+        <label for="Name">Name:</label>
+         <input type="text" name="name" > <br> <br>
+        <label for="mobileNO ">Mobile NO:</label>
+         <input type="text" name="mobile no" > 
+        <label for="Name">Alternate No :</label>
+         <input type="text" name="mobile no" ><br> <br>
+        <label for="email id">Email ID:</label>
+         <input type="text" name="email" ><br> <br>
+        <label for="current location">Current Location:</label>
+         <input type="text" name="location" ><br> <br>
+        
+        <div>
+              <label for="preference">Batch Preferred:</label>
+             <label>
+                  <input type="radio" name="options" value="1" > Weekdays
+             </label>
+             <label>
+                 <input type="radio" name="options" value="2" > weekends
+             </label>
+        </div>
+        <div>
+             <label for="radio">Profession:</label>
+            
+             <label>
+                  <input type="radio" name="options" value="blue" > Student
+             </label>
+             <label>
+                  <input type="radio" name="options" value="blue" > Fresher
+             </label>
+             <label>
+                 <input type="radio" name="options" value="blue" > Exp in IT
+             </label>
+             <label>
+                 <input type="radio" name="options" value="blue" > Exp in  non IT
+             </label>
+             <label>
+                 <input type="radio" name="options" value="blue" > careerBreak
+             </label>
+        </div>
+    
+    
+        <table class="table">
+            <tr>
+                <td><b>Student</b> <br>School/Diploma/College</td>
+                <td><b>Fresher</b>  <br>UG/PG -passed out</td>
+                <td>Year of <br><b> Exp in IT(Diploma)</b> </td>
+                <td>Year of <br> <b>Exp in non  IT(Diploma)</b> </td>
+                <td>How Many Years <br> <b>careerBreak</b></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table> <br>
+
+      <div>
+         <label for="Company name">Exp in IT Company Name:
+             <input type="text" name="company name" id="company name"></label>
+
+      </div> <br>
+      <div> 
+         <label for="trainer">Are You Interested As Become a Trainer?</label>
+         <label>
+             <input type="radio" name="options" value="blue" >Yes
+         </label>
+         <label>
+             <input type="radio" name="options" value="blue" >NO
+         </label>
+      </div> <br>
+      <div>
+           <label for="aboutus">How Did You Hear About Us:</label>
+           <label>
+               <input type="radio" name="option" id="google">Google Search
+          </label>
+          <label>
+             <input type="radio" name="option" id="social">Social Media
+          </label>
+          <label>
+            <input type="radio" name="option" id="insta">Instagram 
+          </label>
+    
+      </div> <br>
+
+      <div>
+          <label for="contact">Contact Person from Besant Technologies:</label>
+             <input type="text" name="contact" id="contact">
+           <h4>Office Us :</h4>
+          <label for="Counsellor">Counsellor:</label>
+             <input type="text" name="Counsellor" id="Counsellor">
+          <label for="fee">Fees:</label>
+              <input type="text" name="fees" id="fees"><br> <br>
+          <label for="status">Status:</label>
+             <input type="text" name="status" id="status">
+          <label for="Comment">Comment:</label>
+             <input type="text" name="comment" id="comment">
+      </div>
+    </form>
+</body>
+</html>

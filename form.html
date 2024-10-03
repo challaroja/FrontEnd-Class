@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Besant Technologies Enquiry Form</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+label {
+  display: block;
+}
+input[type="text"], input[type="email"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+input[type="radio"], input[type="checkbox"] {
+  margin-right: 5px;
+}
+</style>
+</head>
+<body>
+
+<h2>Besant Technologies Enquiry Form</h2>
+
+<table>
+  <tr>
+    <td><label for="name">Name:</label></td>
+    <td><input type="text" id="name"></td>
+    <td><label for="date">Date:</label></td>
+    <td><input type="text" id="date"></td>
+  </tr>
+  <tr>
+    <td><label for="mobile">Mobile No:</label></td>
+    <td><input type="text" id="mobile"></td>
+    <td><label for="alternate">Alternate No:</label></td>
+    <td><input type="text" id="alternate"></td>
+  </tr>
+  <tr>
+    <td><label for="email">Email ID:</label></td>
+    <td colspan="3"><input type="email" id="email"></td>
+  </tr>
+  <tr>
+    <td><label for="location">Current Location:</label></td>
+    <td colspan="3"><input type="text" id="location"></td>
+  </tr>
+  <tr>
+    <td><label for="course">Course Interested:</label></td>
+    <td colspan="3"><input type="text" id="course"></td>
+  </tr>
+  <tr>
+    <td><label>Batch Preferred:</label></td>
+    <td colspan="3">
+      <input type="radio" id="weekdays" name="batch" value="weekdays"> <label for="weekdays">Weekdays</label>
+      <input type="radio" id="weekend" name="batch" value="weekend"> <label for="weekend">Weekend</label>
+    </td>
+  </tr>
+  <tr>
+    <td><label>Profession:</label></td>
+    <td colspan="3">
+      <input type="radio" id="student" name="profession" value="student"> <label for="student">Student</label>
+      <input type="radio" id="fresher" name="profession" value="fresher"> <label for="fresher">Fresher</label>
+      <input type="radio" id="expIT" name="profession" value="expIT"> <label for="expIT">Exp in IT</label>
+      <input type="radio" id="expNonIT" name="profession" value="expNonIT"> <label for="expNonIT">Exp in Non IT</label>
+      <input type="radio" id="careerBreak" name="profession" value="careerBreak"> <label for="careerBreak">Career Break</label>
+    </td>
+  </tr>
+  <!-- Add more rows for other form fields -->
+</table>
+
+</body>
+</html>

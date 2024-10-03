@@ -11,11 +11,12 @@ body{
     width:400px;
     border: 2px solid black;
     align-items: center;
-    margin: auto;
+    margin:500px;
     margin-top: 50px;
     background-color: rgba(0,0,0,0.5);
     box-shadow: inset -3px -6px rgba(0,0,0,0.5);
     border-radius: 26px;
+    
 
 
 
@@ -29,7 +30,7 @@ body{
 }
 /*boxes*/
 .box{
-    padding: 10px 10px ;
+    padding: 10px 10px  ;
     margin: 18px;
     width: 64%;
     border: none;
@@ -61,12 +62,16 @@ body{
     opacity: 0.7;
 }
 .ll{
-    color: lightblue;
+    color: rgb(42, 12, 211);
     margin-bottom: 30px;
     text-decoration: none;
 
 }
 .signup{
-    color: white;
+    color: rgb(221, 220, 228);
     margin-top: 20px;
+}
+a{
+    color: blue;
+    text-decoration: none;
 }
